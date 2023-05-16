@@ -40,7 +40,7 @@ enum {
 };
 
 // Tap Dance definitions
-qk_tap_dance_action_t tap_dance_actions[] = {
+tap_dance_action_t tap_dance_actions[] = {
     // Tap once for J, twice for Semicolon
     [TD_J_QUOTE] = ACTION_TAP_DANCE_DOUBLE(KC_J, KC_QUOTE),
     // Tap once for K, twice for Colon
